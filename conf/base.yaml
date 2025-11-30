@@ -1,0 +1,23 @@
+client_category_ratios:
+- 0.2
+- 0.2
+- 0.6
+client_category_thresholds:
+- 0.3
+- 0.6
+- 0.9
+dataset: iotids
+dir_alpha: 0.5
+num_rounds: 30
+partition_method: noniid-labeldir
+sleep_time: 0.02
+train_config:
+  batch_size: 16
+  beta: 0.8
+  epsilon: 0.001
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0005
+task: binary
+num_nodes: 5
+num_clients: 100

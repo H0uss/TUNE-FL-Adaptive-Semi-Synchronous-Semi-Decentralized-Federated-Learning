@@ -19,9 +19,10 @@ Execute the following command:
 
 ```bash
 python main.py --config-name=base
-
+```
 
 If you use this work, please cite the following paper:
+
 @INPROCEEDINGS{10975902,
   author={Jmal, Houssem and Piamrat, Kandaraj and Aouedi, Ons},
   booktitle={2025 IEEE 22nd Consumer Communications & Networking Conference (CCNC)}, 
